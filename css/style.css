@@ -2,11 +2,58 @@ body {
   padding-top: 54px;
 }
 
-.recentHead{
+.storyHead{
 	font-size: 24px; 
 	font-weight: 300;
 	text-transform: uppercase;
+	margin-top: 5px; 
+	cursor: pointer;
 	
+}
+
+.storyHead:hover{
+	font-weight: 500;
+}
+
+.storyMainTitle{
+	font-size: 40px; 
+	font-weight: 300;
+	text-transform: uppercase;	
+	margin-top: 30px; 
+}
+
+.storyTitle{
+	    font-size: 1.5rem;
+    font-weight: bold;
+	margin: 0;
+	
+}
+
+.storyTime{
+	margin-bottom: 8px; 
+	color: #9e9999;
+	
+}
+
+.myStory{
+	cursor: pointer;
+	padding: 5px 10px;
+	
+}
+
+.myStory:hover{
+	background: #fffcf2;
+	
+}
+
+.resetViewButton{
+	float: right;
+	
+}
+
+.activeType{
+	font-weight: 500; 
+	color: #16a085;
 }
 
 @media (min-width: 992px) {
